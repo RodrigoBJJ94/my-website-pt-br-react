@@ -314,13 +314,13 @@ body .full-width {
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 33px;
     margin-bottom: -25px;
     text-align: center;
   }
 
   a {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .home {
@@ -328,7 +328,7 @@ body .full-width {
   }
 
   p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   h4 {
@@ -353,7 +353,7 @@ body .full-width {
   }
   
   img.games-background-svg {
-    width: 95%;
+    width: 80%;
   }
   
   .games-background-svg {
@@ -390,7 +390,7 @@ body .full-width {
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 27px;
     margin-bottom: -25px;
     text-align: center;
   }
@@ -404,7 +404,7 @@ body .full-width {
   }
 
   p {
-    font-size: 12px;
+    font-size: 11.8px;
   }
 
   h4 {
@@ -421,7 +421,7 @@ body .full-width {
   }
   
   img.games-background-svg {
-    width: 90%;
+    width: 78%;
   }
   
   img.projects-background-svg {
@@ -435,5 +435,9 @@ body .full-width {
 
   .contact h2 {
     margin-bottom: 0px;
+  }
+
+  .contact-mobile {
+    font-size: 11.8px;
   }
 }
