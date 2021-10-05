@@ -1,4 +1,5 @@
 import React from 'react';
+import './Contact.css';
 import ContactTitle from './ContactTitle';
 import ContactMain from './ContactMain';
 

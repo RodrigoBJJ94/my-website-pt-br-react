@@ -1,0 +1,43 @@
+.home {
+  margin-bottom: 50px;
+}
+
+img.main-background-svg {
+  width: 120%;
+  margin: 77px 115px;
+}
+
+.main-background-svg {
+  margin: auto auto;
+}
+
+.tab {
+  text-align: justify;
+  margin-bottom: -20px;
+}
+
+@media (max-width: 768px) {
+  .home {
+    margin-bottom: 10px;
+  }
+
+  img.main-background-svg {
+    width: 90%;
+    margin: 15px 15px;
+  }
+  
+  .main-background-svg {
+    margin: auto auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .home {
+    margin-bottom: -10px;
+  }
+  
+  img.main-background-svg {
+    width: 85%;
+    margin: 8px 18px;
+  }
+}

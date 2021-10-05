@@ -1,4 +1,5 @@
 import React from 'react';
+import './Projects.css';
 import ProjectsTitles from './ProjectsTitles';
 import ProjectsMain from './ProjectsMain';
 import ProjectsBackground from './ProjectsBackground';

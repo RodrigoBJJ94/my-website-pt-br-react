@@ -1,0 +1,27 @@
+img.projects-background-svg {
+  width: 150%;
+}
+
+.projects-background-svg {
+  margin: auto 50px;
+  margin-top: 100px;
+  margin-left: -50px;
+}
+
+@media (max-width: 768px) {
+  img.projects-background-svg {
+    width: 65%;
+    margin: -15px 51px;
+  }
+  
+  .projects-background-svg {
+    margin: auto auto;
+  }
+}
+
+@media (max-width: 320px) {
+  img.projects-background-svg {
+    width: 65%;
+    margin: -18px 45px;
+  }
+}

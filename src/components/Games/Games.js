@@ -1,4 +1,5 @@
 import React from 'react';
+import './Games.css';
 import GamesTitles from './GamesTitles';
 import GamesMain from './GamesMain';
 import GamesBackground from './GamesBackground';

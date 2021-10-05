@@ -1,0 +1,30 @@
+img.games-background-svg {
+  width: 150%;
+}
+
+.games-background-svg {
+  margin: auto 50px;
+  margin-top: 100px;
+}
+
+.games a{
+  color: #0A1128;
+}
+
+@media (max-width: 768px) {
+  img.games-background-svg {
+    width: 80%;
+    margin: 6px 33px;
+  }
+  
+  .games-background-svg {
+    margin: auto auto;
+  }
+}
+
+@media (max-width: 320px) {
+  img.games-background-svg {
+    width: 78%;
+    margin: 4px 30px;
+  }
+}

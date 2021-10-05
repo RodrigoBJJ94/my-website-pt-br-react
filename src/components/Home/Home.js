@@ -1,4 +1,5 @@
 import React from 'react';
+import './Home.css';
 import HomeTitle from './HomeTitle';
 import HomeMain from './HomeMain';
 import HomeBackground from './HomeBackground';

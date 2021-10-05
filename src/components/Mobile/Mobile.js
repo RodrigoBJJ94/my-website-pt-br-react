@@ -1,4 +1,5 @@
 import React from 'react';
+import './Mobile.css';
 import MobileTitles from './MobileTitles';
 import MobileMain from './MobileMain';
 import MobileBackground from './MobileBackground';

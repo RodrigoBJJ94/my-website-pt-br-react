@@ -1,0 +1,26 @@
+img.mobile-background-svg {
+  width: 150%;
+}
+
+.mobile-background-svg {
+  margin: auto 50px;
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  img.mobile-background-svg {
+    width: 70%;
+    margin: 8px 48px;
+  }
+  
+  .mobile-background-svg {
+    margin: auto auto;
+  }
+}
+
+@media (max-width: 320px) {
+  img.mobile-background-svg {
+    width: 70%;
+    margin: -5px 39px;
+  }
+}

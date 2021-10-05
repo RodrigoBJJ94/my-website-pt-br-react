@@ -53,14 +53,6 @@ h4 a {
   font-style: normal;
 }
 
-.home {
-  margin-bottom: 50px;
-}
-
-.contact {
-  margin-bottom: 50px;
-}
-
 .grid-one-content h4 a:hover {
   color:rgba(128, 128, 128, 0.76);
 }
@@ -71,10 +63,6 @@ h4 a {
 
 h4 a:hover {
   color:rgba(128, 128, 128, 0.76);
-}
-
-.mobile a {
-  color: #0A1128;
 }
 
 a {
@@ -88,42 +76,6 @@ p {
 .main-background {
   color: white;
   background-color: #170a28;
-}
-
-img.main-background-svg {
-  width: 140%;
-}
-
-.main-background-svg {
-  margin: auto 50px;
-}
-
-img.mobile-background-svg {
-  width: 150%;
-}
-
-.mobile-background-svg {
-  margin: auto 50px;
-  margin-top: 100px;
-}
-
-img.games-background-svg {
-  width: 150%;
-}
-
-.games-background-svg {
-  margin: auto 50px;
-  margin-top: 100px;
-}
-
-img.projects-background-svg {
-  width: 150%;
-}
-
-.projects-background-svg {
-  margin: auto 50px;
-  margin-top: 100px;
-  margin-left: -50px;
 }
 
 .white-background {
@@ -159,12 +111,6 @@ body .full-width {
   min-height: 100vh;
 }
 
-.intro-contact {
-  display: grid;
-  gap: 30px;
-  min-height: 100vh;
-}
-
 .intro-text-content {
   position: relative;
   display: flex;
@@ -193,69 +139,7 @@ body .full-width {
   padding-bottom: 30px;
 }
 
-.footer {
-  text-align: center;
-  font-size: 20px;
-}
-
-.footer p {
-  color: #0A1128;
-  margin: 0;
-  padding: 30px;
-  font-style: italic;
-}
-
-.close-menu {
-  display: none;
-}
-
-.back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: white;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  color: #0A1128;
-  transform: rotate(-90deg);
-  border: 1px solid #0A1128;
-}
-
-.contact p {
-  margin: 10px;
-  text-align: center;
-}
-
-.contact {
-  text-align: center;
-  line-height: 2.5;
-}
-
-.tab {
-  text-align: justify;
-  margin-bottom: -20px;
-}
-
-.games a{
-  color: #0A1128;
-}
-
 @media (max-width: 768px) {
-  .menu h1 {
-    font-size: 17px;
-    margin-left: -10px;
-    margin-right: 10px;
-  }
-  
-  .menu ul li a {
-    padding: 20px 9px;
-    font-size: 13px;
-  }
-
   .intro-content {
     grid-template-columns: 1fr;
   }
@@ -274,10 +158,6 @@ body .full-width {
     font-size: 18px;
   }
 
-  .home {
-    margin-bottom: 10px;
-  }
-
   p {
     font-size: 12.1px;
   }
@@ -285,64 +165,14 @@ body .full-width {
   h4 {
     padding: 4px;
   }
-  
-  img.main-background-svg {
-    width: 90%;
-    margin: 77px 15px;
-  }
-  
-  .main-background-svg {
-    margin: auto auto;
-  }
-  
-  img.mobile-background-svg {
-    width: 70%;
-    margin: 8px 48px;
-  }
-  
-  .mobile-background-svg {
-    margin: auto auto;
-  }
-  
-  img.games-background-svg {
-    width: 80%;
-    margin: 6px 33px;
-  }
-  
-  .games-background-svg {
-    margin: auto auto;
-  }
-  
-  img.projects-background-svg {
-    width: 65%;
-    margin: -15px 51px;
-  }
-  
-  .projects-background-svg {
-    margin: auto auto;
-  }
 
   .grid-description {
     text-align: center;
     margin-bottom: 10px;
   }
-
-  .contact-mobile {
-    font-size: 14px;
-  }
 }
 
 @media (max-width: 320px) {
-  .menu h1 {
-    margin-left: -14px;
-    margin-right: 8px;
-  }
-  
-  .menu ul li a {
-    padding: 20px 6px;
-    font-size: 12px;
-  }
-
   h2 {
     font-size: 27px;
     margin-bottom: -25px;
@@ -365,36 +195,8 @@ body .full-width {
     padding: 0px;
   }
   
-  img.main-background-svg {
-    width: 85%;
-    margin: 8px 18px;
-  }
-  
-  img.mobile-background-svg {
-    width: 70%;
-    margin: -5px 39px;
-  }
-  
-  img.games-background-svg {
-    width: 78%;
-    margin: 4px 30px;
-  }
-  
-  img.projects-background-svg {
-    width: 65%;
-    margin: -18px 45px;
-  }
-
   .grid-description {
     text-align: center;
     margin-bottom: -5px;
-  }
-
-  .contact h2 {
-    margin-bottom: 0px;
-  }
-
-  .contact-mobile {
-    font-size: 11.8px;
   }
 }
