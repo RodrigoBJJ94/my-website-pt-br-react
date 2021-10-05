@@ -328,7 +328,7 @@ body .full-width {
   }
 
   p {
-    font-size: 13px;
+    font-size: 12.1px;
   }
 
   h4 {
@@ -337,7 +337,7 @@ body .full-width {
   
   img.main-background-svg {
     width: 90%;
-    margin-top: 45px;
+    margin: 77px 15px;
   }
   
   .main-background-svg {
@@ -345,7 +345,8 @@ body .full-width {
   }
   
   img.mobile-background-svg {
-    width: 65%;
+    width: 70%;
+    margin: 8px 48px;
   }
   
   .mobile-background-svg {
@@ -354,6 +355,7 @@ body .full-width {
   
   img.games-background-svg {
     width: 80%;
+    margin: 6px 33px;
   }
   
   .games-background-svg {
