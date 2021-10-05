@@ -145,55 +145,6 @@ body .full-width {
   flex: 1 1 100%;
 }
 
-.menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  z-index: 1;
-  border-bottom: 1px solid lightgrey;
-}
-
-.menu-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-.menu h1 {
-  font-size: 23px;
-  color: #0A1128;
-}
-
-.menu h1:hover {
-  color:rgba(128, 128, 128, 0.76);
-}
-
-.menu h1 a {
-  color: inherit;
-}
-
-.menu ul {
-  list-style: none;
-  display: flex;
-}
-
-.menu ul li a:hover {
-  color:rgba(128, 128, 128, 0.76);
-}
-
-.menu ul li a {
-  display: block;
-  padding: 20px;
-  font-size: 18px;
-  font-weight: 700;
-  color: #0A1128;
-  position: relative;
-}
-
 .intro-content {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -363,7 +314,8 @@ body .full-width {
   }
   
   img.projects-background-svg {
-    width: 54%;
+    width: 65%;
+    margin: -15px 51px;
   }
   
   .projects-background-svg {
@@ -415,19 +367,22 @@ body .full-width {
   
   img.main-background-svg {
     width: 85%;
-    margin-top: 25px;
+    margin: 8px 18px;
   }
   
   img.mobile-background-svg {
-    width: 60%;
+    width: 70%;
+    margin: -5px 39px;
   }
   
   img.games-background-svg {
     width: 78%;
+    margin: 4px 30px;
   }
   
   img.projects-background-svg {
-    width: 50%;
+    width: 65%;
+    margin: -18px 45px;
   }
 
   .grid-description {
