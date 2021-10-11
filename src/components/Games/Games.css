@@ -14,7 +14,7 @@ img.games-background-svg {
 @media (max-width: 768px) {
   img.games-background-svg {
     width: 80%;
-    margin: 6px 33px;
+    margin: 2px 33px;
   }
   
   .games-background-svg {
