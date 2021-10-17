@@ -11,20 +11,24 @@ img.games-background-svg {
   color: #0A1128;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   img.games-background-svg {
-    width: 80%;
-    margin: 2px 33px;
+    width: 0%;
   }
-  
-  .games-background-svg {
-    margin: auto auto;
+
+  .games {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .games {
+    margin-top: 10px;
   }
 }
 
 @media (max-width: 320px) {
-  img.games-background-svg {
-    width: 78%;
-    margin: 4px 30px;
+  .games {
+    margin-top: 10px;
   }
 }

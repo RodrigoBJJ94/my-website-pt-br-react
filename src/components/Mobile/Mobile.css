@@ -7,20 +7,8 @@ img.mobile-background-svg {
   margin-top: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   img.mobile-background-svg {
-    width: 70%;
-    margin: 0px 48px;
-  }
-  
-  .mobile-background-svg {
-    margin: auto auto;
-  }
-}
-
-@media (max-width: 320px) {
-  img.mobile-background-svg {
-    width: 70%;
-    margin: -5px 39px;
+    width: 0%;
   }
 }

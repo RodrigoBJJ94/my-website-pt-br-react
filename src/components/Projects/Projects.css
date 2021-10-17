@@ -8,20 +8,8 @@ img.projects-background-svg {
   margin-left: -50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   img.projects-background-svg {
-    width: 65%;
-    margin: -17px 51px;
-  }
-  
-  .projects-background-svg {
-    margin: auto auto;
-  }
-}
-
-@media (max-width: 320px) {
-  img.projects-background-svg {
-    width: 65%;
-    margin: -18px 45px;
+    width: 0%;
   }
 }
