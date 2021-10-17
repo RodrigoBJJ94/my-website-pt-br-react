@@ -1,5 +1,5 @@
 import React from 'react';
-import './BackToTop.css';
+import './Back.css';
 
 export default function BackToTop() {
     return (
