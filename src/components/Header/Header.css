@@ -47,7 +47,7 @@
   position: relative;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .menu h1 {
     font-size: 17px;
     margin-left: -10px;
@@ -55,8 +55,31 @@
   }
   
   .menu ul li a {
-    padding: 20px 9px;
-    font-size: 13px;
+    padding: 20px 8px;
+    font-size: 16px;
+  }
+
+  a.home-a {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 400px) {
+  .menu h1 {
+    font-size: 17px;
+    margin-left: -10px;
+    margin-right: 10px;
+  }
+  
+  .menu ul li a {
+    padding: 20px 8px;
+    font-size: 14.5px;
+  }
+
+  a.home-a {
+    font-size: 17px;
+    margin-left: -5px;
+    margin-right: -2px;
   }
 }
 
@@ -67,7 +90,7 @@
   }
   
   .menu ul li a {
-    padding: 20px 6px;
-    font-size: 12px;
+    padding: 20px 5px;
+    font-size: 12.5px;
   }
 }
