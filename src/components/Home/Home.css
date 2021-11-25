@@ -19,7 +19,7 @@ img.main-background-svg {
 @media (max-width: 800px) {
   .home {
     margin-bottom: 15px;
-    margin-top: 20px;
+    margin-top: 35px;
   }
 
   img.main-background-svg {
@@ -30,13 +30,13 @@ img.main-background-svg {
 @media (max-width: 400px) {
   .home {
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 22px;
   }
 }
 
 @media (max-width: 320px) {
   .home {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     margin-top: 5px;
   }
 }
