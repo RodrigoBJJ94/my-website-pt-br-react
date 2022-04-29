@@ -165,8 +165,8 @@ body .full-width {
   p.tab {
     font-size: 16.5px;
     margin-top: 65px;
+    margin-right: 15px;
   }
-
 
   h4 {
     padding: 7px;
@@ -180,7 +180,7 @@ body .full-width {
 
 @media (max-width: 400px) {
   h2 {
-    font-size: 33px;
+    font-size: 32px;
     margin-bottom: -25px;
     text-align: center;
   }
