@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export default function ContactTitle() {
-    return (
-        <h2 className="contact">Contato</h2>
-    );
+  return (
+    <h2 className="contact">Contato</h2>
+  );
 };

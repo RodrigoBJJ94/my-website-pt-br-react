@@ -1,7 +1,5 @@
-import React from 'react';
+import React from "react";
 
 export default function HomeTitle() {
-    return (
-        <h2 className="home">Desenvolvedor</h2>
-    );
+  return <h2 className="home">Desenvolvedor</h2>
 };

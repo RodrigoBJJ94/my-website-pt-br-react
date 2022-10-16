@@ -1,7 +1,5 @@
-import React from 'react';
+import React from "react";
 
 export default function FooterMain() {
-    return (
-        <p>Criado por Rodrigo Brentano</p>
-    );
+  return <p>Criado por Rodrigo Brentano</p>
 };
