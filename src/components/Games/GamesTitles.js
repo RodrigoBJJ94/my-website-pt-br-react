@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function GamesTitles() {
+export default function GamesTitles({ language }) {
   return (
     <>
       <h2>Games</h2>
       <p
         className="grid-description">
-        Segue abaixo alguns dos meus games
+          {language === "My web games" ? "" : "Meus games web"}
       </p>
     </>
   );

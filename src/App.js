@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Mobile from "./components/Mobile/Mobile";
@@ -10,15 +10,32 @@ import BackToTop from "./components/BackToTop/BackToTop";
 import "./App.css";
 
 export default function App() {
+  const [language, setLanguage] = useState("English");
+
   return (
     <>
-      <Header />
-      <Home />
-      <Mobile />
-      <Projects />
-      <Games />
-      <Contact />
-      <Footer />
+      <Header
+        setLanguage={setLanguage}
+        language={language}
+      />
+      <Home
+        language={language}
+      />
+      <Mobile
+        language={language}
+      />
+      <Projects
+        language={language}
+      />
+      <Games
+        language={language}
+      />
+      <Contact
+        language={language}
+      />
+      <Footer
+        language={language}
+      />
       <BackToTop />
     </>
   );

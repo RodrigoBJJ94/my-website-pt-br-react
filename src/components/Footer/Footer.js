@@ -1,12 +1,15 @@
 import React from "react";
 import "./Footer.css";
-import FooterMain from "./FooterMain";
 
-export default function Footer() {
+export default function Footer({ language }) {
   return (
     <footer
       className="footer white-background">
-      <FooterMain />
+      <p>
+        {language === "English" ?
+          "Created by Rodrigo Brentano" :
+          "Criado por Rodrigo Brentano"}
+      </p>
     </footer>
   );
 };

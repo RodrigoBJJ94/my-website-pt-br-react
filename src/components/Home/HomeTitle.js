@@ -1,5 +1,9 @@
 import React from "react";
 
-export default function HomeTitle() {
-  return <h2 className="home">Desenvolvedor</h2>
+export default function HomeTitle({ language }) {
+  return (
+    <h2 className="home">
+      {language === "English" ? "Developer" : "Desenvolvedor"}
+    </h2>
+  );
 };

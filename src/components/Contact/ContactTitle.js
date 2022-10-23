@@ -1,7 +1,10 @@
 import React from "react";
 
-export default function ContactTitle() {
+export default function ContactTitle({ language }) {
   return (
-    <h2 className="contact">Contato</h2>
+    <h2
+      className="contact">
+      {language === "English" ? "Contact" : "Contato"}
+    </h2>
   );
 };

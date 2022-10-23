@@ -1,12 +1,12 @@
 import React from "react";
 
-export default function ProjectsTitles() {
+export default function ProjectsTitles({ language }) {
   return (
     <>
       <h2>WEB APPS</h2>
       <p
         className="grid-description">
-        Segue abaixo alguns dos aplicativos web
+          {language === "English" ? "My web apps" : "Meus aplicativos web"}    
       </p>
     </>
   );

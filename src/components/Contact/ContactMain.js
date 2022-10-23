@@ -28,7 +28,8 @@ export default function ContactMain() {
           rel="noreferrer"
           className="contact-mobile">
           https://github.com/RodrigoBJJ94
-        </a></p>
+        </a>
+      </p>
     </>
   );
 };
