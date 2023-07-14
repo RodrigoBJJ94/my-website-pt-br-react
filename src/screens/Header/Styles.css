@@ -1,0 +1,102 @@
+.headerMainContainer {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* top: 0;
+  left: 0;
+  right: 0; */
+  z-index: 1;
+  width: 100vw;
+  height: 11vh;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 76vw;
+  height: 11vh;
+}
+
+.headerLeftContainer {
+  /* margin-left: 12vw; */
+}
+
+.headerHomeContainer {
+
+}
+
+.headerHomeButtonTitle {
+  font-size: 23px;
+  font-weight: 900;
+  background-color: #FFFFFF;
+  color: #0A1128;
+  border: none;
+  cursor: pointer;
+}
+
+.headerHomeButtonTitle:hover {
+  color: #808080;
+}
+
+.headerRightContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-right: 12vw; */
+  /* background-color: violet; */
+}
+
+.headerSubContainers {
+  margin-left: 2.5vw;
+  /* background-color: teal; */
+}
+
+.headerButtonTitles {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #FFFFFF;
+  color: #0A1128;
+  border: none;
+  cursor: pointer;
+}
+
+.headerButtonTitles:hover {
+  color: #808080;
+}
+
+.headerLanguagesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  /* width: 10vw;
+  height: 10vh; */
+  margin-left: 2.5vw;
+  /* height: 8vh; */
+  /* background-color: tomato; */
+}
+
+.headerLanguageEnglishContainer {
+  display: flex;
+  margin-right: 0.5vw;
+}
+
+.headerLanguagePortugueseContainer {
+  display: flex;
+  margin-left: 0.5vw;
+}
+
+.buttonLanguages {
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+
+.flagIcon {
+  width: 2vw;
+}

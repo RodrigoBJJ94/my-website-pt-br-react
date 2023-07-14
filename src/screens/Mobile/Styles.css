@@ -1,0 +1,85 @@
+.mobileMainContainer {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 89vh;
+  background-color: #FFFFFF;
+	/* background-color: tomato; */
+}
+
+.mobileContainer {
+  display: flex;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  width: 76vw;
+  height: 89vh;
+  /* background-color: chartreuse; */
+}
+
+.mobileContentContainer {
+	display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  width: 38vw;
+  height: 89vh;
+  margin-right: 2vw;
+  /* background-color: chocolate; */
+}
+
+.mobileTitleContainer {
+	/* margin-top: 10vh; */
+  margin-bottom: 7vh;
+}
+
+.mobileTitle {
+	font-size: 55px;
+  font-weight: 900;
+  color: #0A1128;
+}
+
+.mobileSecondaryTitleContainer {
+	margin-bottom: 7vh;
+}
+
+.mobileSecondaryTitle {
+	font-size: 20px;
+  font-weight: 400;
+  color: #0A1128;
+}
+
+.mobileAppsMainContainer {
+
+}
+
+.mobileAppsContainer {
+  margin-bottom: 3.5vh;
+}
+
+.mobileAppText {
+	font-size: 25px;
+  font-weight: 900;
+  color: #0A1128;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.mobileAppText:hover {
+	color: #808080;
+}
+
+.mobileImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36vw;
+  height: 89vh;
+  /* margin-top: 5vh; */
+	/* background-color: springgreen; */
+}
+
+.mobileImage {
+  width: 35vw;
+}

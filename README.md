@@ -1,2 +1,3 @@
-# my-website-pt-br-react
- my-website-pt-br-react
+# RODRIGO BRENTANO WEBSITE
+
+Developed with React, JavaScript and CSS

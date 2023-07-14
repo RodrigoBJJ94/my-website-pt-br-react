@@ -1,0 +1,25 @@
+.mainApp {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.simplebar-track {
+  z-index: 0 !important;
+  pointer-events: visible !important;
+}
+
+.simplebar-scrollbar:before {
+  background: #D3D3D3 !important;
+  top: 6px !important;
+  bottom: 6px !important;
+  left: 1px !important;
+  right: 4px !important;
+  opacity: 1 !important;
+  border-radius: 4px !important;
+}
+
+.simplebar-track.simplebar-vertical {
+  width: 14px !important;
+}

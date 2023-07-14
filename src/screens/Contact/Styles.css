@@ -1,0 +1,55 @@
+.contactMainContainer {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 89vh;
+  background-color: #170A28;
+	/* background-color: tomato; */
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 76vw;
+  height: 89vh;
+  /* background-color: chartreuse; */
+}
+
+.contactTitleContainer {
+	/* margin-top: 10vh; */
+  margin-bottom: 12vh;
+}
+
+.contactTitle {
+	font-size: 55px;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+.contactTextContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 6vh;
+}
+
+.contactTextTitle {
+  margin-right: 0.6vw;
+	font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.contactText {
+	font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contactText:hover {
+	color: #808080;
+}
