@@ -1,0 +1,27 @@
+.headerLanguagesContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-left: 2.5vw;
+}
+
+.headerLanguageEnglishContainer {
+  display: flex;
+  margin-right: 0.5vw;
+}
+
+.headerLanguagePortugueseContainer {
+  display: flex;
+  margin-left: 0.5vw;
+}
+
+.buttonLanguages {
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+
+.flagIcon {
+  width: 2vw;
+}

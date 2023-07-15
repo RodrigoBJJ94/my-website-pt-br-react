@@ -1,0 +1,12 @@
+.headerHomeButtonTitle {
+  font-size: 23px;
+  font-weight: 900;
+  background-color: #FFFFFF;
+  color: #0A1128;
+  border: none;
+  cursor: pointer;
+}
+
+.headerHomeButtonTitle:hover {
+  color: #808080;
+}

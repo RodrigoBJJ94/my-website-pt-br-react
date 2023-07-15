@@ -1,0 +1,16 @@
+.headerSubContainers {
+  margin-left: 2.5vw;
+}
+
+.headerButtonTitles {
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #FFFFFF;
+  color: #0A1128;
+  border: none;
+  cursor: pointer;
+}
+
+.headerButtonTitles:hover {
+  color: #808080;
+}

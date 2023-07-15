@@ -7,3 +7,75 @@
   scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
 }
+
+.projectsMainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 89vh;
+  background-color: #FFFFFF;
+}
+
+.projectsContainer {
+  display: flex;
+  width: 76vw;
+  height: 89vh;
+}
+
+.projectsContentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 38vw;
+  height: 89vh;
+  margin-right: 2vw;
+}
+
+.projectsTitleContainer {
+  margin-bottom: 7vh;
+}
+
+.projectsTitle {
+  font-size: 55px;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+.projectsSecondaryTitleContainer {
+  margin-bottom: 7vh;
+}
+
+.projectsSecondaryTitle {
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.projectsAppsContainer {
+  margin-bottom: 3.5vh;
+}
+
+.projectsAppText {
+	font-size: 25px;
+  font-weight: 900;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.projectsAppText:hover {
+  color: #808080;
+}
+
+.projectsImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36vw;
+  height: 89vh;
+}
+
+.projectsImage {
+  width: 35vw;
+}

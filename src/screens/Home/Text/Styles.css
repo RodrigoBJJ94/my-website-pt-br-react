@@ -1,0 +1,10 @@
+.homeTextContainer {
+  margin-bottom: 5vh;
+}
+
+.homeText {
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 1.6;
+}
