@@ -1,6 +1,8 @@
 .contactTextContainer {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 6vh;
 }
 
@@ -21,4 +23,44 @@
 
 .contactText:hover {
 	color: #808080;
+}
+
+@media (max-width: 1400px) {
+  .contactTextTitle {
+    font-size: 19px;
+  }
+  
+  .contactText {
+    font-size: 19px;
+  }
+}
+
+@media(max-width: 1280px) {
+  .contactTextTitle {
+    font-size: 18px;
+  }
+  
+  .contactText {
+    font-size: 18px;
+  }
+}
+
+@media(max-width: 420px) {
+  .contactTextTitle {
+    font-size: 14px;
+  }
+  
+  .contactText {
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 380px) {
+  .contactTextTitle {
+    font-size: 12.5px;
+  }
+  
+  .contactText {
+    font-size: 12.5px;
+  }
 }

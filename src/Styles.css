@@ -27,7 +27,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 38vw;
+  width: 39vw;
   height: 89vh;
   margin-right: 2vw;
 }
@@ -72,10 +72,85 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36vw;
+  width: 35vw;
   height: 89vh;
 }
 
 .projectsImage {
   width: 35vw;
+}
+
+@media (max-width: 1400px) {
+  .projectsTitle {
+    font-size: 50px;
+  }
+
+  .projectsSecondaryTitle {
+    font-size: 19px;
+  }
+
+  .projectsAppText {
+    font-size: 23.5px;
+  }
+}
+
+@media(max-width: 1280px) {
+  .projectsTitle {
+    font-size: 45px;
+  }
+
+  .projectsSecondaryTitle {
+    font-size: 18px;
+  }
+
+  .projectsAppText {
+    font-size: 22px;
+  }
+}
+
+@media(max-width: 420px) {
+  .projectsContainer {
+    width: 86vw;
+    flex-direction: column;
+  }
+
+  .projectsContentContainer {
+    width: 86vw;
+    margin-right: 0vw;
+  }
+
+  .projectsImageContainer {
+    width: 0vw;
+    height: 0vh;
+  }
+  
+  .projectsImage {
+    width: 0vw;
+  }
+
+  .projectsTitle {
+    font-size: 26px;
+  }
+
+  .projectsSecondaryTitle {
+    font-size: 15px;
+  }
+
+  .projectsAppText {
+    font-size: 17.5px;
+  }
+}
+
+@media(max-width: 380px) {
+  .projectsTitle {
+    font-size: 23px;
+  }
+
+  .projectsSecondaryTitle {
+    font-size: 13.5px;
+  }
+
+  .projectsAppText {
+    font-size: 15.5px;
+  }
 }

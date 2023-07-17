@@ -10,3 +10,27 @@
 .headerHomeButtonTitle:hover {
   color: #808080;
 }
+
+@media (max-width: 1400px) {
+  .headerHomeButtonTitle {
+    font-size: 22px;
+  }
+}
+
+@media(max-width: 1280px) {
+  .headerHomeButtonTitle {
+    font-size: 21px;
+  }
+}
+
+@media(max-width: 420px) {
+  .headerHomeButtonTitle {
+    font-size: 17px;
+  }
+}
+
+@media(max-width: 380px) {
+  .headerHomeButtonTitle {
+    font-size: 15.6px;
+  }
+}

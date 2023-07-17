@@ -8,3 +8,27 @@
   color: #FFFFFF;
   line-height: 1.6;
 }
+
+@media (max-width: 1400px) {
+  .homeText {
+    font-size: 16.7px;
+  }
+}
+
+@media(max-width: 1280px) {
+  .homeText {
+    font-size: 15.4px;
+  }
+}
+
+@media(max-width: 420px) {
+  .homeText {
+    font-size: 10px;
+  }
+}
+
+@media(max-width: 380px) {
+  .homeText {
+    font-size: 9.5px;
+  }
+}

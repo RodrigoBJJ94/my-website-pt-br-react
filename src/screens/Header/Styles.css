@@ -18,3 +18,9 @@
   width: 76vw;
   height: 11vh;
 }
+
+@media(max-width: 420px) {
+  .headerContainer {
+    width: 90vw;
+  }
+}

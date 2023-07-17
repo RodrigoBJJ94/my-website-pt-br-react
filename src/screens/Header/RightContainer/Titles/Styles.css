@@ -1,4 +1,7 @@
 .headerSubContainers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: 2.5vw;
 }
 
@@ -13,4 +16,32 @@
 
 .headerButtonTitles:hover {
   color: #808080;
+}
+
+@media (max-width: 1400px) {
+  .headerButtonTitles {
+    font-size: 17.5px;
+  }
+}
+
+@media(max-width: 1280px) {
+  .headerButtonTitles {
+    font-size: 17px;
+  }
+}
+
+@media(max-width: 420px) {
+  .headerButtonTitles {
+    font-size: 13.5px;
+  }
+
+  .headerSubContainers {
+    margin-left: 3vw;
+  }
+}
+
+@media(max-width: 380px) {
+  .headerButtonTitles {
+    font-size: 12.8px;
+  }
 }
