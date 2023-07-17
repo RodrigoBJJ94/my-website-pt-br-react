@@ -11,19 +11,6 @@ export default function Content() {
       <div className="projectsAppsContainer">
         <p>
           <a
-            href="https://rodrigobrentano-annotations-maker.netlify.app"
-            className="projectsAppText">
-            {
-              language === "us"
-                ? "Annotations Maker"
-                : "Criador de Anotaçãoes"
-            }
-          </a>
-        </p>
-      </div>
-      <div className="projectsAppsContainer">
-        <p>
-          <a
             href="https://rodrigobrentano-currency-converter.netlify.app"
             className="projectsAppText">
             {
