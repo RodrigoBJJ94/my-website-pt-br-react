@@ -12,8 +12,7 @@ export default function Content() {
         <p>
           <a
             href="https://rodrigobrentano-jogo-da-velha-versus-cpu.netlify.app"
-            className="projectsAppText"
-            style={{ color: "#0A1128" }}>
+            className="projectsAppTextSecondary">
             {
               language === "us"
                 ? "Tic Tac Toe - vs CPU"
@@ -26,8 +25,7 @@ export default function Content() {
         <p>
           <a
             href="https://rodrigobrentano-jogo-da-velha.netlify.app"
-            className="projectsAppText"
-            style={{ color: "#0A1128" }}>
+            className="projectsAppTextSecondary">
             {
               language === "us"
                 ? "Tic Tac Toe - 2 Playes"
@@ -40,8 +38,7 @@ export default function Content() {
         <p>
           <a
             href="https://rodrigobrentano-jogo-da-forca.netlify.app"
-            className="projectsAppText"
-            style={{ color: "#0A1128" }}>
+            className="projectsAppTextSecondary">
             {
               language === "us"
                 ? "Hangman"

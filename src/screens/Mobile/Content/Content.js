@@ -12,8 +12,7 @@ export default function Content() {
         <p>
           <a
             href="https://play.google.com/store/apps/details?id=com.animeApp"
-            className="projectsAppText"
-            style={{ color: "#0A1128" }}>
+            className="projectsAppTextSecondary">
             Anime App
           </a>
         </p>
@@ -22,8 +21,7 @@ export default function Content() {
         <p>
           <a
             href="https://play.google.com/store/apps/details?id=com.weathercitiesclima"
-            className="projectsAppText"
-            style={{ color: "#0A1128" }}>
+            className="projectsAppTextSecondary">
             {
               language === "us"
                 ? "Cities Weather"
@@ -36,8 +34,7 @@ export default function Content() {
         <p>
           <a
             href="https://play.google.com/store/apps/details?id=com.ticTacToeJogoDaVelha"
-            className="projectsAppText"
-            style={{ color: "#0A1128" }}>
+            className="projectsAppTextSecondary">
             {
               language === "us"
                 ? "Tic Tac Toe"
@@ -50,8 +47,7 @@ export default function Content() {
         <p>
           <a
             href="https://play.google.com/store/apps/details?id=com.conversormedidas"
-            className="projectsAppText"
-            style={{ color: "#0A1128" }}>
+            className="projectsAppTextSecondary">
             {
               language === "us"
                 ? "Measure Converter"
@@ -64,8 +60,7 @@ export default function Content() {
         <p>
           <a
             href="https://play.google.com/store/apps/details?id=com.calories"
-            className="projectsAppText"
-            style={{ color: "#0A1128" }}>
+            className="projectsAppTextSecondary">
             {
               language === "us"
                 ? "Calorie Counter"
@@ -78,8 +73,7 @@ export default function Content() {
         <p>
           <a
             href="https://play.google.com/store/apps/details?id=com.calculatorCalculadoraCalculator"
-            className="projectsAppText"
-            style={{ color: "#0A1128" }}>
+            className="projectsAppTextSecondary">
             {
               language === "us"
                 ? "Calculator"
