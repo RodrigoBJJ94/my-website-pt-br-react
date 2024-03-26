@@ -1,3 +1,3 @@
 # RODRIGO BRENTANO WEBSITE
 
-Developed with React, JavaScript and CSS
+My website developed with React, JavaScript and CSS

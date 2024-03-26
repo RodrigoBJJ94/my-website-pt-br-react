@@ -11,7 +11,7 @@ export default function Content() {
       <div className="projectsAppsContainer">
         <p>
           <a
-            href="https://play.google.com/store/apps/details?id=com.animeApp"
+            href="https://github.com/RodrigoBJJ94/anime-app-react-native"
             className="projectsAppTextSecondary">
             Anime App
           </a>
@@ -20,7 +20,7 @@ export default function Content() {
       <div className="projectsAppsContainer">
         <p>
           <a
-            href="https://play.google.com/store/apps/details?id=com.weathercitiesclima"
+            href="https://github.com/RodrigoBJJ94/cities-weather-react-native"
             className="projectsAppTextSecondary">
             {
               language === "us"
@@ -33,7 +33,7 @@ export default function Content() {
       <div className="projectsAppsContainer">
         <p>
           <a
-            href="https://play.google.com/store/apps/details?id=com.ticTacToeJogoDaVelha"
+            href="https://github.com/RodrigoBJJ94/tic-tac-toe-jogo-da-velha-react-native"
             className="projectsAppTextSecondary">
             {
               language === "us"
@@ -46,7 +46,7 @@ export default function Content() {
       <div className="projectsAppsContainer">
         <p>
           <a
-            href="https://play.google.com/store/apps/details?id=com.conversormedidas"
+            href="https://github.com/RodrigoBJJ94/measure-converter-react-native"
             className="projectsAppTextSecondary">
             {
               language === "us"
@@ -59,7 +59,7 @@ export default function Content() {
       <div className="projectsAppsContainer">
         <p>
           <a
-            href="https://play.google.com/store/apps/details?id=com.calories"
+            href="https://github.com/RodrigoBJJ94/calorie-counter-react-native"
             className="projectsAppTextSecondary">
             {
               language === "us"
@@ -72,7 +72,7 @@ export default function Content() {
       <div className="projectsAppsContainer">
         <p>
           <a
-            href="https://play.google.com/store/apps/details?id=com.calculatorCalculadoraCalculator"
+            href="https://github.com/RodrigoBJJ94/calculator-calculadora-react-native"
             className="projectsAppTextSecondary">
             {
               language === "us"

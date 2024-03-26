@@ -10,28 +10,36 @@ export default function Titles({ scrolltoScreen }) {
     <>
       <div className="headerSubContainers">
         <button
-          onClick={() => scrolltoScreen("mobile")}
+          onClick={() => {
+            scrolltoScreen("mobile");
+          }}
           className="headerButtonTitles">
           Mobile
         </button>
       </div>
       <div className="headerSubContainers">
         <button
-          onClick={() => scrolltoScreen("web")}
+          onClick={() => {
+            scrolltoScreen("web");
+          }}
           className="headerButtonTitles">
           Web
         </button>
       </div>
       <div className="headerSubContainers">
         <button
-          onClick={() => scrolltoScreen("games")}
+          onClick={() => {
+            scrolltoScreen("desktop");
+          }}
           className="headerButtonTitles">
-          Games
+          Desktop
         </button>
       </div>
       <div className="headerSubContainers">
         <button
-          onClick={() => scrolltoScreen("contact")}
+          onClick={() => {
+            scrolltoScreen("contact");
+          }}
           className="headerButtonTitles">
           {
             language === "us"

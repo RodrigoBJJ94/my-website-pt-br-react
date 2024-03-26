@@ -7,12 +7,8 @@ export default function Header({ scrolltoScreen }) {
   return (
     <div className="headerMainContainer">
       <div className="headerContainer">
-        <LeftContainer
-          scrolltoScreen={scrolltoScreen}
-        />
-        <RightContainer
-          scrolltoScreen={scrolltoScreen}
-        />
+        <LeftContainer scrolltoScreen={scrolltoScreen} />
+        <RightContainer scrolltoScreen={scrolltoScreen} />
       </div>
     </div>
   );

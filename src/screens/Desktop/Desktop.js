@@ -5,10 +5,10 @@ import Content from "./Content/Content";
 import Image from "./Image/Image";
 import "../../Styles.css";
 
-export default function Games({ screensRef }) {
+export default function Desktop({ screensRef }) {
   return (
     <section
-      ref={screensRef.games}
+      ref={screensRef.desktop}
       className="projectsMainContainer">
       <div className="projectsContainer">
         <div className="projectsContentContainer">

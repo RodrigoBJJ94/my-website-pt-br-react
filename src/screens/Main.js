@@ -4,7 +4,7 @@ import Header from "./Header/Header";
 import Home from "./Home/Home";
 import Mobile from "./Mobile/Mobile";
 import Web from "./Web/Web";
-import Games from "./Games/Games";
+import Desktop from "./Desktop/Desktop";
 import Contact from "./Contact/Contact";
 import "simplebar-react/dist/simplebar.min.css";
 import "./Styles.css";
@@ -15,7 +15,7 @@ export default function Main() {
     home: useRef(null),
     mobile: useRef(null),
     web: useRef(null),
-    games: useRef(null),
+    desktop: useRef(null),
     contact: useRef(null)
   };
 
@@ -25,29 +25,17 @@ export default function Main() {
 
   return (
     <div className="mainApp">
-      <Header
-        scrolltoScreen={scrolltoScreen}
-      />
+      <Header scrolltoScreen={scrolltoScreen} />
       <SimpleBar
         style={{
           height: "89vh",
           marginTop: "11vh"
         }}>
-        <Home
-          screensRef={screensRef}
-        />
-        <Mobile
-          screensRef={screensRef}
-        />
-        <Web
-          screensRef={screensRef}
-        />
-        <Games
-          screensRef={screensRef}
-        />
-        <Contact
-          screensRef={screensRef}
-        />
+        <Home screensRef={screensRef} />
+        <Mobile screensRef={screensRef} />
+        <Web screensRef={screensRef} />
+        <Desktop screensRef={screensRef} />
+        <Contact screensRef={screensRef} />
       </SimpleBar>
     </div>
   );

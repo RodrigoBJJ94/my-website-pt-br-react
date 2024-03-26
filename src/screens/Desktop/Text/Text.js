@@ -13,8 +13,8 @@ export default function Text() {
         style={{ color: "#0A1128" }}>
         {
           language === "us"
-            ? "My Web Games"
-            : "Meus Games Web"
+            ? "My Desktop Apps"
+            : "Meus Aplicativos Desktop"
         }
       </p>
     </div>

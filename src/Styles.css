@@ -110,7 +110,7 @@
   }
 }
 
-@media(max-width: 1280px) {
+@media (max-width: 1280px) {
   .projectsTitle {
     font-size: 45px;
   }
@@ -128,7 +128,7 @@
   }
 }
 
-@media(max-width: 420px) {
+@media (max-width: 420px) {
   .projectsContainer {
     width: 86vw;
     flex-direction: column;
@@ -165,7 +165,7 @@
   }
 }
 
-@media(max-width: 380px) {
+@media (max-width: 380px) {
   .projectsTitle {
     font-size: 23px;
   }

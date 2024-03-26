@@ -69,6 +69,19 @@ export default function Content() {
           </a>
         </p>
       </div>
+      <div className="projectsAppsContainer">
+        <p>
+          <a
+            href="https://rodrigobrentano-jogo-da-velha-versus-cpu.netlify.app"
+            className="projectsAppText">
+            {
+              language === "us"
+                ? "Tic Tac Toe - vs CPU"
+                : "Jogo da Velha - vs CPU"
+            }
+          </a>
+        </p>
+      </div>
     </div>
   );
 };

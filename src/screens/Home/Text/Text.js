@@ -12,8 +12,8 @@ export default function Text() {
         <p className="homeText">
           {
             language === "us"
-              ? "I'm a Web/Mobile/Desktop developer with more focus in the Frontend"
-              : "Eu sou um desenvolvedor Web/Mobile/Desktop com foco no Frontend"
+              ? "I'm a mid-level developer - web, mobile, desktop"
+              : "Eu sou um desenvolvedor pleno - web, mobile, desktop"
           }
         </p>
       </div>
@@ -21,7 +21,7 @@ export default function Text() {
         <p className="homeText">
           {
             language === "us"
-              ? "I Work at the company Ponfac from Porto Alegre - Brazil"
+              ? "I work at the company Ponfac from Porto Alegre - Brazil"
               : "Eu trabalho na empresa Ponfac de Porto Alegre - Brasil"
           }
         </p>

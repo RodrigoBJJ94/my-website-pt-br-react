@@ -6,7 +6,7 @@ export default function Title() {
     <div className="projectsTitleContainer">
       <p className="projectsTitle"
         style={{ color: "#0A1128" }}>
-        GAMES
+        DESKTOP APPS
       </p>
     </div>
   );

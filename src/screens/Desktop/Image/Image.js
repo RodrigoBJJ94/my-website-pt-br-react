@@ -1,14 +1,14 @@
 import React from "react";
-import GamesImage from "../../../images/GamesImage.svg";
+import DesktopImage from "../../../images/DesktopImage.svg"
 import "../../../Styles.css";
 
 export default function Image() {
   return (
     <div className="projectsImageContainer">
       <img
-        src={GamesImage}
+        src={DesktopImage}
         className="projectsImage"
-        alt="Games"
+        alt="Desktop"
       />
     </div>
   );

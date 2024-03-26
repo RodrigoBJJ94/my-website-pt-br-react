@@ -6,9 +6,7 @@ import "./Styles.css";
 export default function RightContainer({ scrolltoScreen }) {
   return (
     <div className="headerRightContainer">
-      <Titles
-        scrolltoScreen={scrolltoScreen}
-      />
+      <Titles scrolltoScreen={scrolltoScreen} />
       <Languages />
     </div>
   );

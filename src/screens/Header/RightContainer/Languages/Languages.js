@@ -13,7 +13,9 @@ export default function Languages() {
       <div className="headerLanguageEnglishContainer">
         <button
           className="buttonLanguages"
-          onClick={() => setLanguage("us")}>
+          onClick={() => {
+            setLanguage("us");
+          }}>
           <img
             src={FlagUS}
             className="flagIcon"
@@ -24,7 +26,9 @@ export default function Languages() {
       <div className="headerLanguagePortugueseContainer">
         <button
           className="buttonLanguages"
-          onClick={() => setLanguage("br")}>
+          onClick={() => {
+            setLanguage("br");
+          }}>
           <img
             src={FlagBR}
             className="flagIcon"
